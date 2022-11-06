@@ -1,11 +1,10 @@
-import ContactUs from "./ContactUs";
+import MainApp from "./Components/MainApp";
 
 
 function App() {
   return (
     <div>
-      <h1>Welcome to React</h1>
-      <ContactUs />
+      <MainApp />
     </div>
   );
 }
