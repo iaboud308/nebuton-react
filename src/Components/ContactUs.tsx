@@ -35,7 +35,7 @@ const ContactUs = () => {
     const handleSubmit = async (e: any) => {
         const payload = { firstName, lastName, email, message, "companyName": "Nebuton" };
         console.log(payload);
-        const response = await postReq('http://contact-us-server.hyderion.com/api/contact', JSON.stringify(payload));
+        const response = await postReq('https://contact-us-server.hyderion.com/api/contact', JSON.stringify(payload));
         console.log(response);
 
     }
