@@ -13,9 +13,8 @@ const postReq = async (endpoint: string, payload: any) => {
             body: payload
         })
         
-        console.log(response);
         const jsonResponse = await response.json();
-        return jsonResponse;
+        return { response, jsonResponse };
     }
 
     catch (ex) {
