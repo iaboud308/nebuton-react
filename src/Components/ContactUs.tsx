@@ -43,35 +43,37 @@ const ContactUs = () => {
 
     return (
         <div className="container">
-            <h1 className="my-5">Contact Us</h1>
-            <div className="row mb-3">
+            <h1 className="my-5 text-center">Contact Us</h1>
+            <div className="row justify-content-center mb-3">
 
-                <div className="col-2">
+                <div className="col-lg-3">
                     <label className="form-label">First Name</label>
                     <input type="text" name="firstName" className="form-control" onChange={handleChange} />
                 </div>
 
-                <div className="col-2">
+                <div className="col-lg-3">
                     <label className="form-label">Last Name</label>
                     <input type="text" name="lastName" className="form-control" onChange={handleChange} />
                 </div>
             </div>
 
-            <div className="row mb-3">
-                <div className="col-4">
+            <div className="row justify-content-center mb-3">
+                <div className="col-lg-6">
                     <label className="form-label">Email</label>
                     <input type="text" name="email" className="form-control" onChange={handleChange} />
                 </div>
             </div>
 
-            <div className="row mb-3">
-                <div className="col-4">
+            <div className="row justify-content-center mb-3">
+                <div className="col-lg-6">
                     <label className="form-label">Message</label>
                     <textarea name="message" className="form-control" rows={6} onChange={handleChange} />
                 </div>
             </div>
 
-            <button className="btn btn-primary" onClick={handleSubmit}>Submit</button>
+            <div className="d-grid col-lg-6 mx-auto">
+                <button className="btn btn-primary btn-lg" onClick={handleSubmit}>Submit</button>
+            </div>
 
         </div>
     )

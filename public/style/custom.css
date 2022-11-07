@@ -1,0 +1,40 @@
+
+
+.custom-background-image {
+    background-image: linear-gradient(45deg, black, darkblue);
+    /* background-image: url("../images/v617batch2-kul-05-technology.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+
+
+.custom-img {
+    width: 90%;
+    /* min-width: 100%; */
+    object-fit: cover;
+}
+
+.custom-bg-secondary {
+    background-color: lightgray;
+}
+
+
+.icon-mods {
+    width: 240px;
+}
+
+footer-links a {
+    color: antiquewhite;
+}
+
+.half-width {
+    width: 40%;
+}
+
+
+@media (max-width: 768px) {
+    .half-width {
+        width: 100%;
+    }
+}
