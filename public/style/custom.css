@@ -24,8 +24,20 @@
     width: 240px;
 }
 
-footer-links a {
-    color: antiquewhite;
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+a:hover  a:any-link {
+    color: white;
+}
+
+
+
+custom-link {
+    color: white;
+    text-decoration: none;
 }
 
 .half-width {
