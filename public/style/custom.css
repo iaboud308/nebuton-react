@@ -24,20 +24,14 @@
     width: 240px;
 }
 
-a {
+.custom-link a {
     color: white !important;
     text-decoration: none !important;
 }
 
-a:hover  a:any-link {
-    color: white;
-}
 
-
-
-custom-link {
-    color: white;
-    text-decoration: none;
+.custom-tagline {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .half-width {
