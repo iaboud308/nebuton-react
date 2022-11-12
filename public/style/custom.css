@@ -39,6 +39,11 @@
 }
 
 
+.underline {
+    text-decoration: underline;
+}
+
+
 @media (max-width: 768px) {
     .half-width {
         width: 100%;
