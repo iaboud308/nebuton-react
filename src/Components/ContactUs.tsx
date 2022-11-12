@@ -93,7 +93,7 @@ const ContactUs = () => {
             </div>
 
             <div className="d-grid col-lg-6 mx-auto">
-                <button className="btn btn-primary btn-lg" onClick={handleSubmit}>Submit</button>
+                <button className="btn btn-primary btn-lg my-3" onClick={handleSubmit}>Submit</button>
             </div>
 
 
