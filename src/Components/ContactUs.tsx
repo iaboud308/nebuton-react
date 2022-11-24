@@ -63,6 +63,7 @@ const ContactUs = () => {
     return (
         <div className="container">
             <h1 className="my-5 text-center">Contact Us</h1>
+            <Confirm type={status} message={resMessage} />
             <div className="row justify-content-center">
 
                 <div className="col-lg-3 mb-3">
@@ -94,7 +95,6 @@ const ContactUs = () => {
                 <button className="btn btn-primary btn-lg" onClick={handleSubmit}>Submit</button>
             </div>
 
-            <Confirm type={status} message={resMessage} />
 
         </div>
     )
