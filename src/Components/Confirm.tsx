@@ -4,7 +4,7 @@
 const Confirm = (props: any) => {
 
     return (
-        <div className="container mt-5">
+        <div className="container mb-5">
             <p className={`text-center text-${props.type}`}>{ props.message }</p>
         </div>
     )

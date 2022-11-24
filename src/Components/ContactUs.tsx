@@ -65,6 +65,8 @@ const ContactUs = () => {
             <h1 className="my-5 text-center">Contact Us</h1>
             <Confirm type={status} message={resMessage} />
             <div className="row justify-content-center">
+                
+            <Confirm type={status} message={resMessage} />
 
                 <div className="col-lg-3 mb-3">
                     <label className="form-label">First Name</label>
@@ -92,7 +94,7 @@ const ContactUs = () => {
             </div>
 
             <div className="d-grid col-lg-6 mx-auto">
-                <button className="btn btn-primary btn-lg" onClick={handleSubmit}>Submit</button>
+                <button className="btn btn-primary btn-lg my-3" onClick={handleSubmit}>Submit</button>
             </div>
 
 
